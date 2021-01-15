@@ -14,7 +14,7 @@ public class IdHelperTest {
 
     @Test
     public void nextId() {
-        IntStream.range(1, 2).forEach(count -> log.info("{}", IdHelper.nextId()));
+        IntStream.range(1, 200).forEach(count -> log.info("{}", IdHelper.nextId()));
     }
 
     @Test

@@ -33,6 +33,7 @@ public class IdHelper {
     public static long nextId() {
         return nextId(System.currentTimeMillis()/1000);
     }
+
     public static String nextStringId() {
         return String.valueOf(nextId());
     }
